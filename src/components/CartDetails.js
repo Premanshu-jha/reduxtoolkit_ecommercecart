@@ -27,7 +27,7 @@ const CartDetails = () => {
 
     // remove single item 
     const handleSingleDecrement = (e)=>{
-        dispatch(removeSingleIteams(e))
+        dispatch(removeSingleItems(e))
     }
 
     // empty cart
