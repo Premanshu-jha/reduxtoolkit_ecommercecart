@@ -31,7 +31,7 @@ const cartSlice = createSlice({
         },
 
         // remove single iteams
-        removeSingleIteams:(state,action)=>{
+        removeSingleItems:(state,action)=>{
             const IteamIndex_dec = state.carts.findIndex((iteam) => iteam.id === action.payload.id);
 
             if(state.carts[IteamIndex_dec].qnty >=1){
